@@ -2,8 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SimpleDatagramProtocol"
   s.version      = "0.1"
   s.summary      = ""
-  s.description  = <<-DESC
-    Your description here.
+  s.description  = "Reference Swift implementation for the Simple Datagram Protocol"
   DESC
   s.homepage     = "https://github.com/snipsco/SDP-swift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
