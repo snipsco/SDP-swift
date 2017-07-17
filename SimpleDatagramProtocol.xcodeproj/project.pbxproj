@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		52D6D9871BEFF229002C0205 /* SimpleDatagramProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* SimpleDatagramProtocol.framework */; };
-		8933C7851EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */; };
-		8933C7861EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */; };
-		8933C7871EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */; };
-		8933C7881EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */; };
 		8933C78E1EB5B82C000D00A4 /* SimpleDatagramProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* SimpleDatagramProtocolTests.swift */; };
 		8933C78F1EB5B82C000D00A4 /* SimpleDatagramProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* SimpleDatagramProtocolTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* SimpleDatagramProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* SimpleDatagramProtocolTests.swift */; };
+		B9806B791F1CC7AA006CD738 /* Datagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B781F1CC7A9006CD738 /* Datagram.swift */; };
+		B9806B7A1F1CC7AA006CD738 /* Datagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B781F1CC7A9006CD738 /* Datagram.swift */; };
+		B9806B7B1F1CC7AA006CD738 /* Datagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B781F1CC7A9006CD738 /* Datagram.swift */; };
+		B9806B7C1F1CC7AA006CD738 /* Datagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B781F1CC7A9006CD738 /* Datagram.swift */; };
+		B9806B7E1F1CC839006CD738 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B7D1F1CC839006CD738 /* Message.swift */; };
+		B9806B7F1F1CC839006CD738 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B7D1F1CC839006CD738 /* Message.swift */; };
+		B9806B801F1CC839006CD738 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B7D1F1CC839006CD738 /* Message.swift */; };
+		B9806B811F1CC839006CD738 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B7D1F1CC839006CD738 /* Message.swift */; };
+		B9806B831F1CD36E006CD738 /* MessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B821F1CD36E006CD738 /* MessageReceiver.swift */; };
+		B9806B841F1CD36E006CD738 /* MessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B821F1CD36E006CD738 /* MessageReceiver.swift */; };
+		B9806B851F1CD36E006CD738 /* MessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B821F1CD36E006CD738 /* MessageReceiver.swift */; };
+		B9806B861F1CD36E006CD738 /* MessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9806B821F1CD36E006CD738 /* MessageReceiver.swift */; };
 		DD7502881C68FEDE006590AF /* SimpleDatagramProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* SimpleDatagramProtocol.framework */; };
 		DD7502921C690C7A006590AF /* SimpleDatagramProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* SimpleDatagramProtocol.framework */; };
 /* End PBXBuildFile section */
@@ -49,10 +57,12 @@
 		52D6D9E21BEFFF6E002C0205 /* SimpleDatagramProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleDatagramProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* SimpleDatagramProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleDatagramProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6DA0F1BF000BD002C0205 /* SimpleDatagramProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleDatagramProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDatagramProtocol.swift; sourceTree = "<group>"; };
 		8933C7891EB5B82A000D00A4 /* SimpleDatagramProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDatagramProtocolTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* SimpleDatagramProtocol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SimpleDatagramProtocol.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* SimpleDatagramProtocolTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SimpleDatagramProtocolTests.plist; sourceTree = "<group>"; };
+		B9806B781F1CC7A9006CD738 /* Datagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datagram.swift; sourceTree = "<group>"; };
+		B9806B7D1F1CC839006CD738 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B9806B821F1CD36E006CD738 /* MessageReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageReceiver.swift; sourceTree = "<group>"; };
 		DD75027A1C68FCFC006590AF /* SimpleDatagramProtocol-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleDatagramProtocol-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD75028D1C690C7A006590AF /* SimpleDatagramProtocol-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleDatagramProtocol-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,7 +159,9 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8933C7841EB5B820000D00A4 /* SimpleDatagramProtocol.swift */,
+				B9806B821F1CD36E006CD738 /* MessageReceiver.swift */,
+				B9806B781F1CC7A9006CD738 /* Datagram.swift */,
+				B9806B7D1F1CC839006CD738 /* Message.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -347,7 +359,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "Snips";
+				ORGANIZATIONNAME = Snips;
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -459,7 +471,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7851EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */,
+				B9806B7E1F1CC839006CD738 /* Message.swift in Sources */,
+				B9806B791F1CC7AA006CD738 /* Datagram.swift in Sources */,
+				B9806B831F1CD36E006CD738 /* MessageReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +489,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7871EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */,
+				B9806B801F1CC839006CD738 /* Message.swift in Sources */,
+				B9806B7B1F1CC7AA006CD738 /* Datagram.swift in Sources */,
+				B9806B851F1CD36E006CD738 /* MessageReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7881EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */,
+				B9806B811F1CC839006CD738 /* Message.swift in Sources */,
+				B9806B7C1F1CC7AA006CD738 /* Datagram.swift in Sources */,
+				B9806B861F1CD36E006CD738 /* MessageReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +509,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7861EB5B820000D00A4 /* SimpleDatagramProtocol.swift in Sources */,
+				B9806B7F1F1CC839006CD738 /* Message.swift in Sources */,
+				B9806B7A1F1CC7AA006CD738 /* Datagram.swift in Sources */,
+				B9806B841F1CD36E006CD738 /* MessageReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
