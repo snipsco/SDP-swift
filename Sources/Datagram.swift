@@ -76,10 +76,6 @@ extension Datagram {
         )
     }
 
-    private var byteCount: Int {
-        return Header.byteCount + payload.count
-    }
-
     public var encoded: Data {
         var data = Data(capacity: Header.byteCount + payload.count)
 
