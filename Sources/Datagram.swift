@@ -37,15 +37,6 @@ public func == (lhs: Datagram.Header, rhs: Datagram.Header) -> Bool {
         == rhs.offset
 }
 
-// This is not needed in Swift 4, where Data.SubSequence is Data
-private func == (lhs: Data.SubSequence, rhs: Data.SubSequence) -> Bool {
-    guard lhs.count == rhs.count else { return false }
-    for index in 0 ..< lhs.count {
-        guard lhs[index] == rhs[index] else { return false }
-    }
-    return true
-}
-
 public func == (lhs: Datagram, rhs: Datagram) -> Bool {
     return lhs.header
         == rhs.header
@@ -83,13 +74,13 @@ extension Datagram {
 
         var offset = header.offset
         for _ in 0 ..< 4 {
-            data.append(UInt8(truncatingBitPattern: offset))
+            data.append(UInt8(truncatingIfNeeded: offset))
             offset >>= 8
         }
 
         var messageLength = header.messageLength
         for _ in 0 ..< 4 {
-            data.append(UInt8(truncatingBitPattern: messageLength))
+            data.append(UInt8(truncatingIfNeeded: messageLength))
             messageLength >>= 8
         }
 

@@ -21,7 +21,7 @@ private struct ByteCollection: RandomAccessCollection {
 
     subscript(index: Int) -> UInt8 {
         get {
-            return UInt8(truncatingBitPattern: index)
+            return UInt8(truncatingIfNeeded: index)
         }
     }
 }
